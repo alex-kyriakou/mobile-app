@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Responsive App site</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Swier CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- Siper js -->
+    <script
+      src="https://unpkg.com/swiper@7/swiper-bundle.min.js"
+      defer
+    ></script>
+    <!-- custom js file link -->
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <!-- section header starts here -->
+    <header class="header">
+      <a href="#" class="logo">LOGO</a>
+
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <nav class="nav-bar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#about">about</a>
+        <a href="#usage">usage</a>
+        <a href="#review">review</a>
+        <a href="#pricing">pricing</a>
+      </nav>
+    </header>
+    <!-- section header ends here -->
+
+    <!-- home section starts here -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>app landing page</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia
+          facilis molestias est, culpa dolore esse iste possimus animi beatae
+          perspiciatis fuga blanditiis, id assumenda?
+        </p>
+        <a href="#" class="btn">get started</a>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="images/shot-01.jpg" alt="img1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/shot-02.jpg" alt="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/shot-03.jpg" alt="img3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/shot-04.jpg" alt="img4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/shot-05.jpg" alt="img5" />
+          </div>
+        </div>
+        <!--  pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- features section starts here -->
+
+    <section class="features" id="features">
+      <h1 class="heading">app features</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-magic"></i>
+          <h3>smooth design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            sapiente quis eligendi soluta laudantium eum.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-shield-alt"></i>
+          <h3>privacy protect</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            sapiente quis eligendi soluta laudantium eum.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-globe"></i>
+          <h3>multiple languages</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            sapiente quis eligendi soluta laudantium eum.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>location tracking</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            sapiente quis eligendi soluta laudantium eum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- features secgtion ends here -->
+
+    <!-- about section starts here -->
+
+    <section class="about" id="about">
+      <h1 class="heading">about the app</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img2.jpg" alt="about-img" />
+        </div>
+
+        <div class="content">
+          <h3>Take a look at our App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            asperiores molestiae eligendi, modi quis obcaecati harum quae Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. In vel eligendi
+            repudiandae dolor blanditiis voluptates porro nostrum possimus
+            harum? Nesciunt!
+          </p>
+          <div class="buttons">
+            <img src="images/gplay.png" alt="gplay" />
+            <img src="images/app-store-btn.png" alt="appstore" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends here -->
+
+    <!-- usage section starts here -->
+
+    <section class="usage" id="usage">
+      <h1 class="heading">how it works</h1>
+
+      <div class="row">
+        <div class="box-container-left">
+          <div class="box">
+            <i class="fas fa-sort-amount-up"></i>
+            <h3>max. progress</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              cum veniam harum aut saepe minus dolor sit amet consectetur.
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>fast speed</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              cum para defin salot sewig aura.
+            </p>
+          </div>
+        </div>
+
+        <img class="devider" src="images/usage-img.png" alt="usage" />
+
+        <div class="box-container-right">
+          <div class="box">
+            <i class="fas fa-user-clock"> </i>
+            <h3>active time</h3>
+            <p>
+              Quos recusandae eligendi fuga libero ducimus inventore in labore
+              ab sit, voluptate eum nostrum possimus dignissimos!
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-server"></i>
+            <h3>Vip Servers</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+              quasi reprehenderit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- usage section ends here -->
+
+    <!-- review section starts here -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customers review</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/pic1.png" alt="reviews_pic01" />
+          <h3>Luci deo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            consequatur expedita odio obcaecati!
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pic2.png" alt="reviews_pic01" />
+          <h3>Adam John</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            quidem quod ex. Sit, consequuntur?
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pic3.png" alt="reviews_pic01" />
+          <h3>Natalie Reichmann</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            consequatur expedita odio obcaecati!
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends here -->
+
+    <!-- pricing section starts here -->
+
+    <section class="pricing" id="pricing">
+      <h1 class="heading">our prices</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="price"><span>$</span>10 <span>/month</span></div>
+          <h3>basic</h3>
+
+          <ul>
+            <li>100 MB Disk Space</li>
+            <li>2 subdomains</li>
+            <li>5 email accounts</li>
+            <li>email support</li>
+          </ul>
+
+          <a href="#" class="btn">Select Plan</a>
+        </div>
+
+        <div class="box">
+          <div class="price"><span>$</span>20 <span>/month</span></div>
+          <h3>advanced</h3>
+
+          <ul>
+            <li>300 MB Disk Space</li>
+            <li>4 subdomains</li>
+            <li>8 email accounts</li>
+            <li>email support</li>
+          </ul>
+
+          <a href="#" class="btn">Select Plan</a>
+        </div>
+
+        <div class="box">
+          <div class="price"><span>$</span>28 <span>/month</span></div>
+          <h3>premium</h3>
+
+          <ul>
+            <li>1.0 GB Disk Space</li>
+            <li>15 subdomains</li>
+            <li>13 email accounts</li>
+            <li>email support</li>
+          </ul>
+
+          <a href="#" class="btn">Select Plan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section ends here  -->
+
+    <!-- Contact section starts here -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">get in touch</h1>
+
+      <form>
+        <div class="inputBox">
+          <input type="text" required />
+          <label>name</label>
+        </div>
+        <div class="inputBox">
+          <input type="email" required />
+          <label>email</label>
+        </div>
+        <div class="inputBox">
+          <input type="number" required />
+          <label>number</label>
+        </div>
+        <div class="inputBox">
+          <textarea required name="" id="" cols="30" rows="10"></textarea>
+          <label>message</label>
+        </div>
+
+        <input type="submit" class="btn" value="send message" />
+      </form>
+    </section>
+
+    <!-- Contact section ends here -->
+
+    <!-- Footer section starts here -->
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </section>
+
+    <!-- Footer section ends here -->
+  </body>
+</html>
